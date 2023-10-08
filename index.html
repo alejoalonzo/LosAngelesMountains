@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Coalision Tech.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <!-- menu -->
+    <div class="menu" id="navbar">
+      <div class="menuContent">
+      </div>
+
+      <div class="logo">
+        <a href="#home"><img id="logoImg" src="assets/logo.png" alt="logo"></a>
+        <div id="logoTextNavbar">
+          <div>LOS ANGELES</div>
+          <div>MOUNTAINS</div>
+        </div>
+      </div>
+
+      <ul>
+        <a href="#HISTORY">
+          <li class="titles titles1">0.1 HISTORY</li>
+        </a>
+        <a href="#TEAM">
+          <li class="titles titles2">0.2 TEAM</li>
+        </a>
+      </ul>
+      <div class="menuContent">
+      </div>
+    </div>
+  </nav>
+  <!-- HOME -->
+  <div id="home" class="Home">
+    <div class="hero">
+      <div>
+        <img src="./assets/bgMountains.jpg" alt="Hero Image" class="heroImg">
+        <div class="titleContainer">
+          <div class="space"></div>
+          <h1 class="title1">LOS ANGELES</h1>
+          <h1 class="title2">MOUNTAINS</h1>
+        </div>
+        <img src="./assets/bgMountainsOver.png" alt="Hero Image" class="overlay-image">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- HISTORY ------------------------------------------------>
+
+  <div id="HISTORY">
+    <!-- Carousel -------------------------------------------->
+    <section class="slider-wrapper">
+      <button class="slide-arrow" id="slide-arrow-prev">
+        &#8249;
+      </button>
+      <button class="slide-arrow" id="slide-arrow-next">
+        &#8250;
+      </button>
+      <ul class="slides-container" id="slides-container">
+        <li class="slide">
+          <div class="textTitlesContiner">
+            <div class="textTitles">
+              <span class="number">01.</span>
+              <span class="titleNumbers">HISTORY</span>
+            </div>
+            <div class="descriptionCarousel">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam facere fuga quas doloremque natus
+              illum minima deleniti soluta, nobis illo repudiandae laudantium, eaque perferendis quis. Corrupti
+              consectetur dignissimos quisquam?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam facere fuga quas doloremque natus
+              illum minima deleniti soluta.
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="textTitlesContiner">
+            <div class="textTitles">
+              <span class="number">02.</span>
+              <span class="titleNumbers">LOREM</span>
+            </div>
+            <div class="descriptionCarousel">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam facere fuga quas doloremque natus
+              illum minima deleniti soluta, nobis illo repudiandae laudantium, eaque perferendis quis. Corrupti
+              consectetur dignissimos quisquam?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam facere fuga quas doloremque natus
+              illum minima deleniti soluta.
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="textTitlesContiner">
+            <div class="textTitles">
+              <span class="number">03.</span>
+              <span class="titleNumbers">LOREM</span>
+            </div>
+            <div class="descriptionCarousel">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam facere fuga quas doloremque natus
+              illum minima deleniti soluta, nobis illo repudiandae laudantium, eaque perferendis quis. Corrupti
+              consectetur dignissimos quisquam?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam facere fuga quas doloremque natus
+              illum minima deleniti soluta.
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="textTitlesContiner">
+            <div class="textTitles">
+              <span class="number">04.</span>
+              <span class="titleNumbers">LOREM</span>
+            </div>
+            <div class="descriptionCarousel">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam facere fuga quas doloremque natus
+              illum minima deleniti soluta, nobis illo repudiandae laudantium, eaque perferendis quis. Corrupti
+              consectetur dignissimos quisquam?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam facere fuga quas doloremque natus
+              illum minima deleniti soluta.
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <div class="thumbnails">
+        <button class="thumbnail-button" onclick="goToSlide(0)">
+          <img src="assets/peak.jpg" alt="Thumbnail 1">
+        </button>
+        <button class="thumbnail-button" onclick="goToSlide(1)">
+          <img src="assets/peak2.jpg" alt="Thumbnail 2">
+        </button>
+        <button class="thumbnail-button" onclick="goToSlide(2)">
+          <img src="assets/pek3.jpg" alt="Thumbnail 3">
+        </button>
+        <button class="thumbnail-button" onclick="goToSlide(3)">
+          <img src="assets/pic1.jpg" alt="Thumbnail 4">
+        </button>
+      </div>
+
+    </section>
+
+
+  </div>
+
+  <!-- CLIMB ------------------------------------------------>
+  <div id="TEAM" class="climbContainer">
+    <div class="textTitlesContiner">
+      <div class="textTitles">
+        <span class="number">02.</span>
+        <span class="titleNumbers">CLIMB</span>
+      </div>
+      <div class="descriptionCarousel">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam facere fuga quas doloremque natus
+        illum minima deleniti soluta, nobis illo repudiandae laudantium, eaque perferendis quis. Corrupti
+        consectetur dignissimos quisquam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam facere fuga quas doloremque natus
+        illum minima deleniti soluta.
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab links -------------------------------------------->
+  <div class="tab">
+    <button class="tablinks aactive" onclick="openMountain(event, 'montain1')">MOUNTAIN 1</button>
+    <button class="tablinks" onclick="openMountain(event, 'montain2')">MOUNTAIN 2</button>
+
+  </div>
+
+  <!-- Tab content ------------------------------------------->
+  <div id="montain1" class="tabcontent">
+    <div class="content-tab1">
+      <img src="assets/pic1.jpg" alt="">
+      <table>
+        <tr>
+          <th>SCHEDULE</th>
+        </tr>
+        <tr>
+          <td>29 Nov 2016</td>
+          <td></td>
+          <td>Vestibulum viverra</td>
+        </tr>
+        <tr>
+          <td>29 Nov 2016</td>
+          <td></td>
+          <td>Vestibulum viverra</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>18 Dec 2016</td>
+          <td></td>
+          <td>Vestibulum viverra</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>07 Jan 2017</td>
+          <td></td>
+          <td>Vestibulum viverra</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div id="montain2" class="tabcontent">
+    <div class="content-tab2">
+      <img src="assets/peak2.jpg" alt="">
+      <table>
+        <tr>
+          <th>SCHEDULE 2</th>
+        </tr>
+        <tr>
+          <td>29 Nov 2016</td>
+          <td></td>
+          <td>Vestibulum viverra 2</td>
+        </tr>
+        <tr>
+          <td>29 Nov 2016</td>
+          <td></td>
+          <td>Vestibulum viverra 2</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>18 Dec 2016</td>
+          <td></td>
+          <td>Vestibulum viverra 2</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>07 Jan 2017</td>
+          <td></td>
+          <td>Vestibulum viverra 2</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+
+  <!-- Footer ------------------------------------------->
+  <footer class="footer">
+    <div class="FooterContent">
+      <div class="logo">
+        <img id="logoImg" src="assets/logo.png" alt="logo">
+        <div id="logoTextFooter">
+          <div>LOS ANGELES</div>
+          <div>MOUNTAINS</div>
+        </div>
+      </div>
+      <div class="COPYRIGHT">
+        <h4 class="">COPYRIGHT 2016. ALL RIGHTS RESERVED.</h4>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
