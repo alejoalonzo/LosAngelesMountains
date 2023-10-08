@@ -421,7 +421,7 @@ table{
     left: 0%;
     transform: translateX(0%);
     z-index: 999;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
     background-color: transparent;
     color: #fff;
@@ -429,9 +429,13 @@ table{
     height: 75px;
 }
   .hero {
-    width:600px
+    width:500px
   }
 
+  .textTitles {
+    display: flex;
+    height: 110px;
+}
   .titles1, .titles2 {
     text-decoration: underline;
     color: white;
@@ -444,6 +448,12 @@ table{
       font-size: 4em;
   }
 
+  .slider-wrapper {
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+}
   .titleContainer{
     left: 0;
     width: 360px;
@@ -479,6 +489,9 @@ table{
   }
   .tab {
     padding-left: 0.5%;
+  }
+  .content-tab1 img,.content-tab2 img{
+    width: 500px;
   }
   table {
     padding: 0px 10px;
